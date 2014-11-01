@@ -1,0 +1,25 @@
+{
+    "name": "landingi/php-phalcon-bundle",
+    "description": "Adds PHP implementation of few Phalcon Framework classes",
+    "keywords": ["phalcon"],
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Tomasz Ślązok",
+          "homepage": "http://tomaszslazok.pl"
+        }
+    ],
+    "autoload": {
+      "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zend-crypt": ">=2.3.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.1.0-RC1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
